@@ -764,9 +764,6 @@
     }
 
     boot();
-    <div class="setting-pill-row" onclick="window.openCloudSyncConfig()" style="cursor:pointer;">
-    <span class="setting-pill-icon"><i class="fas fa-cloud-upload-alt"></i></span>
-    <span class="setting-pill-label">云端同步配置</span>
-    <i class="fas fa-chevron-right" style="color:var(--text-secondary);font-size:12px;flex-shrink:0;"></i>
+    window.openCloudSyncConfig = openConfigModal;
 </div>
 })();
