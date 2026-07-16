@@ -764,5 +764,5 @@
     }
 
     boot();
-    window.openCloudSyncConfig = openConfigModal;
+    window.openCloudSyncConfig = openConfigModal
 })();
